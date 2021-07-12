@@ -1,11 +1,11 @@
 <?php
-	
 	/*
-		The Send Mail php Script for Contact Form
-		
-		Server-side data validation is also added for good data validation.
+	The Send Mail php Script for Contact Form
+	
+	Server-side data validation is also added for good data validation.
 	*/
 	
+	echo "hey"
 	$data['error'] = false;
 	
 	$name = $_POST['name'];
@@ -27,11 +27,15 @@
 		
 		
 		//Email
-		$recipient = "charlesvas18@outlook.com";
+		$recipient = "charlesvas16@outlook.com";
 		
 		$mailheader = "From: $email \r\n";
 		
 		if( mail($recipient, $name, $formcontent, $mailheader) == false ){
+			print($name)
+			print($formcontent)
+			print($mailheader)
+
 			$data['error'] = 'Sorry, an error occured!';
 		}else{
 			$data['error'] = false;

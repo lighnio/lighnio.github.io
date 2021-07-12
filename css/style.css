@@ -1182,6 +1182,7 @@ body.section-switching.up .animation-block{
 }
 .contact-info{
 	margin-bottom:25px;
+	display: inline-table;
 }
 .contact-info:before,
 .contact-info:after{
@@ -1209,7 +1210,11 @@ body.section-switching.up .animation-block{
 }
 @media(min-width:992px){
 	.contact-info-icons{
+		margin-top: -10px;
 		padding-left:30px;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
 	}
 }
 
