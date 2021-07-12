@@ -1183,6 +1183,8 @@ body.section-switching.up .animation-block{
 .contact-info{
 	margin-bottom:25px;
 	display: inline-table;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .contact-info:before,
 .contact-info:after{
