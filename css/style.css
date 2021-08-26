@@ -68,6 +68,13 @@ img{
 	max-width:100%;
 }
 
+.online-demo{
+	display: flex;
+	justify-content: center;
+	color: red;
+	font-size: large;
+}
+
 
 /*=======================================================
 	Menu
