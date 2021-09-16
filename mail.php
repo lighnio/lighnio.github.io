@@ -5,7 +5,7 @@
 	Server-side data validation is also added for good data validation.
 	*/
 	
-	echo "hey"
+	echo "hey";
 	$data['error'] = false;
 	
 	$name = $_POST['name'];
@@ -26,15 +26,15 @@
 		$formcontent="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
 		
 		
-		//Email
+		//Email SERVER
 		$recipient = "charlesvas16@outlook.com";
 		
 		$mailheader = "From: $email \r\n";
 		
 		if( mail($recipient, $name, $formcontent, $mailheader) == false ){
-			print($name)
-			print($formcontent)
-			print($mailheader)
+			print($name);
+			print($formcontent);
+			print($mailheader);
 
 			$data['error'] = 'Sorry, an error occured!';
 		}else{
