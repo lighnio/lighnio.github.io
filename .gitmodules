@@ -1,0 +1,3 @@
+[submodule "adrio"]
+	path = adrio
+	url = https://github.com/lighnio/adrio
