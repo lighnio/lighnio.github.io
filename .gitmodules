@@ -1,3 +1,6 @@
 [submodule "adrio"]
 	path = adrio
 	url = https://github.com/lighnio/adrio
+[submodule "DW-PrimerParcial"]
+	path = DW-PrimerParcial
+	url = https://github.com/lighnio/DW-PrimerParcial
